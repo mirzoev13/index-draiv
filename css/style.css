@@ -150,6 +150,7 @@ header section .car_block .advantages_block a{
     transition: ease 0.6s all;
 }
 
+header section .car_block .advantages_block a:hover,
 header section .car_block .advantages_block a:focus{
     background-color: var(--color_accent);
     color: #fff;

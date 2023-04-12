@@ -317,7 +317,7 @@
         justify-items: center;
     }
     header section .img_car{
-        width: 100vw;
+        width: 98vw;
     }
 
     header section .car_block .advantages_block{
@@ -395,7 +395,7 @@
         justify-items: center;
     }
     header section .img_car{
-        width: 100vw;
+        width: 98vw;
     }
 
     header section .car_block .advantages_block{
@@ -454,4 +454,10 @@
         padding: 0;
     }
 
+}
+
+@media screen and (max-width: 280px){
+    main .search-block .search .checkbox{
+        font-size: 80%;
+    }
 }
