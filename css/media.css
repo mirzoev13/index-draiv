@@ -1,0 +1,457 @@
+@media screen and (max-width: 1280px){
+    header nav ul{
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    header .nav_link{
+        margin: 0;
+    }
+
+    header section{
+        padding: 0;
+    }
+
+    header section .img_car{
+        width: 80%;
+    }
+
+    main .confidence section{
+        margin: 0;
+    }
+
+    main .search-block form{
+        padding: 0;
+        padding-top: 5vh;
+    }
+
+    main .search-block .search {
+        grid-column: 1 / 10;
+    }
+    main .search-block .mark {
+        grid-column: 1 / 10;
+        padding-top: 5vh;
+    }
+
+    main .search-block .search .search-input {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 61px;
+    }
+
+    main section.news {
+        padding: 0;
+        padding-top: 15vh;
+    }
+
+    main section.news .card-news{
+        column-gap: 50px;
+    }
+
+    footer{
+        padding: 0 10%;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    header nav ul{
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    header .nav_link{
+        margin: 0;
+    }
+
+    header section{
+        padding: 0;
+    }
+
+    header section .img_car{
+        width: 80%;
+    }
+
+    main .confidence section{
+        margin: 0;
+    }
+
+    main .search-block form{
+        padding: 0;
+        padding-top: 5vh;
+    }
+
+    main .search-block .search {
+        grid-column: 1 / 10;
+    }
+    main .search-block .mark {
+        grid-column: 1 / 10;
+        padding-top: 5vh;
+    }
+
+    main .search-block .search .search-input {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 61px;
+    }
+
+    main section.news {
+        padding: 0;
+        padding-top: 15vh;
+    }
+
+    main section.news .card-news{
+        column-gap: 50px;
+    }
+
+    footer{
+        padding: 0 10%;
+    }
+}
+
+
+@media screen and (max-width: 912px){
+    header nav ul{
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    header .nav_link{
+        margin: 0;
+    }
+
+    header section{
+        padding: 0;
+    }
+
+    header section .img_car{
+        width: 80%;
+    }
+
+    main .confidence section{
+        margin: 0;
+    }
+
+    main .search-block form{
+        padding: 0;
+        padding-top: 5vh;
+    }
+
+    main .search-block .search {
+        grid-column: 1 / 10;
+    }
+    main .search-block .mark {
+        grid-column: 1 / 10;
+        padding-top: 5vh;
+    }
+
+    main .search-block .search .search-input {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 61px;
+    }
+
+    main section.news {
+        padding: 0;
+        padding-top: 15vh;
+    }
+
+    main section.news .card-news{
+        column-gap: 50px;
+    }
+
+    footer{
+        padding: 0 10%;
+    }
+    
+}
+
+
+@media screen and (max-width: 820px){
+    header nav ul{
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    header .nav_link{
+        margin: 0;
+    }
+
+    header section{
+        padding: 0;
+    }
+
+    header section .img_car{
+        width: 80%;
+    }
+
+    main .confidence section{
+        margin: 0;
+    }
+
+    main .search-block form{
+        padding: 0;
+        padding-top: 5vh;
+    }
+
+    main .search-block .search {
+        grid-column: 1 / 10;
+    }
+    main .search-block .mark {
+        grid-column: 1 / 10;
+        padding-top: 5vh;
+    }
+
+    main .search-block .search .search-input {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 61px;
+    }
+
+    main section.news {
+        padding: 0;
+        padding-top: 15vh;
+    }
+
+    main section.news .card-news{
+        column-gap: 50px;
+    }
+
+    footer{
+        padding: 0 10%;
+    }
+    
+    
+}
+
+@media screen and (max-width: 540px){
+    header section {
+        padding: 0 1%;
+    }
+    header nav ul{
+        grid-template-columns: 1fr;
+    }
+
+    header nav ul li{
+        padding-top: 2vh;
+    }
+
+    
+    header section .car_block{
+        justify-items: center;
+    }
+    header section .img_car{
+        width: 80vw;
+    }
+
+    header section .car_block .advantages_block{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+        row-gap: 50px;
+        justify-items: center;
+    }
+    header section .car_block .advantages_block .atributs_car{
+        grid-template-columns: 1fr;
+    }
+
+    header section .car_block .advantages_block .atributs_car i{
+        text-align: center;
+    }
+
+    main .search-block form{
+        grid-template-columns: 1fr;
+    }
+
+    main .search-block form{
+        padding: 0;
+    }
+
+    main .search-block .search{
+        grid-column: 1;
+    }
+
+
+    main .search-block .search .search-input{
+        grid-template-columns: 1fr;
+    }
+
+    main .search-block .search .search-input input{
+        font-size: 100%;
+
+    }
+
+    main .search-block .mark{
+        grid-column: 1;
+    }
+
+    main .confidence .achivment-block{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    main section.news .card-news{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    main section.news{
+        padding: 0;
+    }
+
+    footer{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 414px){
+    header nav ul{
+        grid-template-columns: 1fr;
+    }
+    header section {
+        padding: 0 1%;
+    }
+    header nav ul{
+        grid-template-columns: 1fr;
+    }
+
+    header nav ul li{
+        padding-top: 2vh;
+    }
+
+    
+    header section .car_block{
+        justify-items: center;
+    }
+    header section .img_car{
+        width: 100vw;
+    }
+
+    header section .car_block .advantages_block{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+        row-gap: 50px;
+        justify-items: center;
+    }
+    header section .car_block .advantages_block .atributs_car{
+        grid-template-columns: 1fr;
+    }
+
+    header section .car_block .advantages_block .atributs_car i{
+        text-align: center;
+    }
+
+    main .search-block form{
+        grid-template-columns: 1fr;
+    }
+
+    main .search-block form{
+        padding: 0;
+    }
+
+    main .search-block .search{
+        grid-column: 1;
+    }
+
+
+    main .search-block .search .search-input{
+        grid-template-columns: 1fr;
+    }
+
+    main .search-block .search .search-input input{
+        font-size: 100%;
+
+    }
+
+    main .search-block .mark{
+        grid-column: 1;
+    }
+
+    main .confidence .achivment-block{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    main section.news .card-news{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    main section.news{
+        padding: 0;
+    }
+
+    footer{
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 375px){
+    header section {
+        padding: 0 1%;
+    }
+    header nav ul{
+        grid-template-columns: 1fr;
+    }
+
+    header nav ul li{
+        padding-top: 2vh;
+    }
+
+    
+    header section .car_block{
+        justify-items: center;
+    }
+    header section .img_car{
+        width: 100vw;
+    }
+
+    header section .car_block .advantages_block{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+        row-gap: 50px;
+        justify-items: center;
+    }
+    header section .car_block .advantages_block .atributs_car{
+        grid-template-columns: 1fr;
+    }
+
+    header section .car_block .advantages_block .atributs_car i{
+        text-align: center;
+    }
+
+    main .search-block form{
+        grid-template-columns: 1fr;
+    }
+
+    main .search-block form{
+        padding: 0;
+    }
+
+    main .search-block .search{
+        grid-column: 1;
+    }
+
+
+    main .search-block .search .search-input{
+        grid-template-columns: 1fr;
+    }
+
+    main .search-block .search .search-input input{
+        font-size: 100%;
+
+    }
+
+    main .search-block .mark{
+        grid-column: 1;
+    }
+
+    main .confidence .achivment-block{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    main section.news .card-news{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    main section.news{
+        padding: 0;
+    }
+
+    footer{
+        padding: 0;
+    }
+
+}
